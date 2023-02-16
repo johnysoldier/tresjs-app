@@ -1,6 +1,6 @@
 <template>
   <Suspense>
-    <TheExperience />
+    <MainScene />
     <template #fallback>
       <PreLoader />
     </template>
@@ -9,5 +9,5 @@
 
 <script setup>
 import PreLoader from "./components/PreLoader.vue";
-import TheExperience from "./components/MainScene.vue";
+import MainScene from "./components/MainScene.vue";
 </script>
